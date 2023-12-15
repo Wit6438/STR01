@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.headder("Wit Temboribbon")
+st.header("Wit Temboribbon")
