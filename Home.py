@@ -40,14 +40,6 @@ if st.button("show bar chart"):
     st.button("Not show bar chart")
 else :
     st.button("Not show bar chart") 
-
-    dx = [dt1, dt2, dt3, dt4]
-dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])
-
-if st.button("show bar chart"):
-    st.bar_chart(dx2)
-    st.button("Not show bar chart")
-
     html_2 = """
 <div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายคลาสดอกไม้</h5></center>
