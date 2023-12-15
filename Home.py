@@ -1,9 +1,9 @@
 import streamlit as st
 
 
-    st.balloons()
 
 st.header("Wit Temboriboon")
+st.balloons()
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('นายวิชญ์ เต็มบริบูรณ์')
 st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
