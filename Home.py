@@ -47,3 +47,11 @@ dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])
 if st.button("show bar chart"):
     st.bar_chart(dx2)
     st.button("Not show bar chart")
+
+    html_2 = """
+<div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>การทำนายคลาสดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")   
